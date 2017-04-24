@@ -18,7 +18,7 @@ contract ERC20 {
 // - to submit a solution first sha3 hash it : sha3(addressOfsubmitter, board[0],board[1],board[2],board[3],board[4],board[5],board[6],board[7],board[8])
 //   then call commit with that hash this sets up an interval of 48 hours after which you can submit the solution in the clear
 //   with 48 hours for it to confirm before somone else could have waited the same period of time
-// - once a solution is found the solution provider owns the contract and can remove all ETH and token funds. No furter solutions can be submitted. 
+// - once a solution is found the solution provider owns the contract and can remove all ETH and token funds. No further solutions can be submitted. 
 //
 //   Warning: all functions that take in the board should be called locally unless the board hash is already claimed
 //   calling the helper function getHash() will reveal the board to a hosted service that performs the function calculation
