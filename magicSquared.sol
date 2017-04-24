@@ -28,7 +28,7 @@ contract ERC20 {
 //
 //   This contract is dedicated to the Parker Square: "at least he tried" 
 //
-//   All source is covered by the MIT licence
+//   All source is covered by the MIT license 
 
 
 contract magicSquared {
